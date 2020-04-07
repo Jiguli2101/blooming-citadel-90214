@@ -1,0 +1,15 @@
+one:
+  follower: TESTaccountforTESTS
+  followed: lana
+
+two:
+  follower: TESTaccountforTESTS
+  followed: malory
+
+three:
+  follower: lana
+  followed: TESTaccountforTESTS
+
+four:
+  follower: archer
+  followed: TESTaccountforTESTS
