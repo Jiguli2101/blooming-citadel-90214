@@ -1,5 +1,5 @@
 # Users
-User.create!(name:  "Example User",
+User.create!(name:  "TESTaccountforTESTS User",
              email: "example@cyberchat.com",
              password:              "foobar",
              password_confirmation: "foobar",
@@ -9,7 +9,7 @@ User.create!(name:  "Example User",
 
 99.times do |n|
   name  = Faker::Name.name
-  email = "example-#{n+1}@cyberchat.com"
+  email = "TESTaccountforTESTS-#{n+1}@cyberchat.com"
   password = "password"
   User.create!(name:  name,
                email: email,
