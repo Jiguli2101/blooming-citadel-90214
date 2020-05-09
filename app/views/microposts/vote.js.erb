@@ -1,0 +1,6 @@
+<% if current_user.liked? @micropost %>
+  $('.like-btn').addClass('liked');
+  <% else %>
+  $('.like-btn').addClass('like-btn');
+<% end %>
+  $('.likes-count').html("<%=@micropost.get_upvotes.size %>")

@@ -1,5 +1,7 @@
 class Micropost < ApplicationRecord
+  acts_as_votable
   belongs_to :user
+
   default_scope -> { order(created_at: :desc)}
 
   # чтобы указать CarrierWave на связь изображения с моделью, нужно воспользоваться методом mount_uploader,
